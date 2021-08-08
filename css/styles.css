@@ -1,0 +1,93 @@
+
+body, h2 {
+  font-size: 16px; 
+  background-color: #FAF1E6; /*webpage background color*/
+  font-family: Georgia, serif; 
+}
+
+/** PAGE TITLE **/
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/** NAVBAR HEADER & BUTTON **/
+#header-nav {
+  background-color: #01937C;
+  border-radius: 0px; /*to deactivate the curvature of the header background*/
+  border: 0px solid; /*to deactivate the webpage border*/
+
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+/** RESTURANT NAME **/
+.navbar-brand h1 { 
+  font-family: Georgia, serif;
+  color: #FAF1E6;
+  font-size: 2.0em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -10px;
+  margin-bottom: 0;
+  /*line-height: .75;*/
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/** BUTTON OUTLINE **/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FAF1E6;
+
+}
+
+/** BUTTON AFTER CLICKED **/
+.navbar-header button.navbar-toggle {
+  margin-bottom: 25px;
+}
+#nav-list a {
+  color: black; 
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/** SECTION TITLE **/
+#chicken-tile p:nth-child(1), #beef-tile p:nth-child(1), #sushi-tile p:nth-child(1) {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #FFC074;
+  color: #000;
+}
+
+/** SECTION PARAGRAPH **/
+#chicken-tile p:nth-child(2), #beef-tile p:nth-child(2), #sushi-tile p:nth-child(2) {
+  padding: 10px;
+
+  text-align: left;
+  color: black;
+}
+
+/** SECTION BOX **/
+#chicken-tile, #beef-tile, #sushi-tile {
+  margin-top: 30px;
+  border: 2px solid #3F0C1F;
+
+  width: 100%;
+  height: 1000px;
+  border: 1px solid black;
+  background-color: #F0F0CB; 
+  overflow: auto
+} 
+
+/** BODY CONTAINER **/
+.container {
+    padding-right: 30px;
+    padding-left: 30px
+}
+/* END HOME PAGE */
