@@ -81,7 +81,7 @@ h2 {
   width: 100%;
   height: 1000px;
   border: 1px solid black;
-  background-color: #F0F0CB; 
+  background-color: white; /* #F0F0CB */ 
   overflow: auto
 } 
 
